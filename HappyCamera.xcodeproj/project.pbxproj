@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3728A31F5B110C0003A656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3728A21F5B110C0003A656 /* main.m */; };
+		1F3728A61F5B110C0003A656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3728A51F5B110C0003A656 /* AppDelegate.m */; };
+		1F3728A91F5B110C0003A656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3728A81F5B110C0003A656 /* ViewController.m */; };
+		1F3728AC1F5B110C0003A656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3728AA1F5B110C0003A656 /* Main.storyboard */; };
+		1F3728AF1F5B110C0003A656 /* HappyCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F3728AD1F5B110C0003A656 /* HappyCamera.xcdatamodeld */; };
+		1F3728B11F5B110C0003A656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3728B01F5B110C0003A656 /* Assets.xcassets */; };
+		1F3728B41F5B110C0003A656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3728B21F5B110C0003A656 /* LaunchScreen.storyboard */; };
+		1F3728BF1F5B11C00003A656 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728BC1F5B11C00003A656 /* CoreMedia.framework */; };
+		1F3728C01F5B11C00003A656 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728BD1F5B11C00003A656 /* CoreMotion.framework */; };
+		1F3728C11F5B11C00003A656 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728BE1F5B11C00003A656 /* CoreVideo.framework */; };
+		1F3728C31F5B11CC0003A656 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728C21F5B11CC0003A656 /* OpenGLES.framework */; };
+		1F3728C51F5B11D10003A656 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728C41F5B11D10003A656 /* AVFoundation.framework */; };
+		1F3728C71F5B11DC0003A656 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3728C61F5B11DC0003A656 /* QuartzCore.framework */; };
+		9FD00168045EC85F275940EF /* libPods-HappyCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9633D0D4EF84D43850663CF /* libPods-HappyCamera.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F3728FE1F5B1B8D0003A656 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F37289E1F5B110C0003A656 /* HappyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3728A21F5B110C0003A656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F3728A41F5B110C0003A656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F3728A51F5B110C0003A656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F3728A71F5B110C0003A656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F3728A81F5B110C0003A656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F3728AB1F5B110C0003A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F3728AE1F5B110C0003A656 /* HappyCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyCamera.xcdatamodel; sourceTree = "<group>"; };
+		1F3728B01F5B110C0003A656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F3728B31F5B110C0003A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F3728B51F5B110C0003A656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3728BC1F5B11C00003A656 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1F3728BD1F5B11C00003A656 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1F3728BE1F5B11C00003A656 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1F3728C21F5B11CC0003A656 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1F3728C41F5B11D10003A656 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F3728C61F5B11DC0003A656 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63C9ED880810842474566C68 /* Pods-HappyCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyCamera/Pods-HappyCamera.release.xcconfig"; sourceTree = "<group>"; };
+		C9633D0D4EF84D43850663CF /* libPods-HappyCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5365E68CF8595E071304D4E /* Pods-HappyCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyCamera/Pods-HappyCamera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F37289B1F5B110C0003A656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3728C71F5B11DC0003A656 /* QuartzCore.framework in Frameworks */,
+				1F3728C51F5B11D10003A656 /* AVFoundation.framework in Frameworks */,
+				1F3728C31F5B11CC0003A656 /* OpenGLES.framework in Frameworks */,
+				1F3728BF1F5B11C00003A656 /* CoreMedia.framework in Frameworks */,
+				1F3728C01F5B11C00003A656 /* CoreMotion.framework in Frameworks */,
+				1F3728C11F5B11C00003A656 /* CoreVideo.framework in Frameworks */,
+				9FD00168045EC85F275940EF /* libPods-HappyCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3728951F5B110C0003A656 = {
+			isa = PBXGroup;
+			children = (
+				1F3728A01F5B110C0003A656 /* HappyCamera */,
+				1F37289F1F5B110C0003A656 /* Products */,
+				1F3728BB1F5B11BF0003A656 /* Frameworks */,
+				CB60C1212A11969BD6B97B41 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1F37289F1F5B110C0003A656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F37289E1F5B110C0003A656 /* HappyCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3728A01F5B110C0003A656 /* HappyCamera */ = {
+			isa = PBXGroup;
+			children = (
+				1F3728A41F5B110C0003A656 /* AppDelegate.h */,
+				1F3728A51F5B110C0003A656 /* AppDelegate.m */,
+				1F3728A71F5B110C0003A656 /* ViewController.h */,
+				1F3728A81F5B110C0003A656 /* ViewController.m */,
+				1F3728AA1F5B110C0003A656 /* Main.storyboard */,
+				1F3728B01F5B110C0003A656 /* Assets.xcassets */,
+				1F3728B21F5B110C0003A656 /* LaunchScreen.storyboard */,
+				1F3728B51F5B110C0003A656 /* Info.plist */,
+				1F3728AD1F5B110C0003A656 /* HappyCamera.xcdatamodeld */,
+				1F3728A11F5B110C0003A656 /* Supporting Files */,
+			);
+			path = HappyCamera;
+			sourceTree = "<group>";
+		};
+		1F3728A11F5B110C0003A656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3728A21F5B110C0003A656 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F3728BB1F5B11BF0003A656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F3728C61F5B11DC0003A656 /* QuartzCore.framework */,
+				1F3728C41F5B11D10003A656 /* AVFoundation.framework */,
+				1F3728C21F5B11CC0003A656 /* OpenGLES.framework */,
+				1F3728BC1F5B11C00003A656 /* CoreMedia.framework */,
+				1F3728BD1F5B11C00003A656 /* CoreMotion.framework */,
+				1F3728BE1F5B11C00003A656 /* CoreVideo.framework */,
+				C9633D0D4EF84D43850663CF /* libPods-HappyCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB60C1212A11969BD6B97B41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5365E68CF8595E071304D4E /* Pods-HappyCamera.debug.xcconfig */,
+				63C9ED880810842474566C68 /* Pods-HappyCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F37289D1F5B110C0003A656 /* HappyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3728B81F5B110C0003A656 /* Build configuration list for PBXNativeTarget "HappyCamera" */;
+			buildPhases = (
+				23D64FE5D1A04F1574DA7A80 /* [CP] Check Pods Manifest.lock */,
+				1F37289A1F5B110C0003A656 /* Sources */,
+				1F37289B1F5B110C0003A656 /* Frameworks */,
+				1F37289C1F5B110C0003A656 /* Resources */,
+				1F3728FE1F5B1B8D0003A656 /* CopyFiles */,
+				516265DECAD20788459DAF69 /* [CP] Embed Pods Frameworks */,
+				9E4A8C0F9591BB9874EBC0F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyCamera;
+			productName = HappyCamera;
+			productReference = 1F37289E1F5B110C0003A656 /* HappyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3728961F5B110C0003A656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChenWei;
+				TargetAttributes = {
+					1F37289D1F5B110C0003A656 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5D7TV84WEN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F3728991F5B110C0003A656 /* Build configuration list for PBXProject "HappyCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F3728951F5B110C0003A656;
+			productRefGroup = 1F37289F1F5B110C0003A656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F37289D1F5B110C0003A656 /* HappyCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F37289C1F5B110C0003A656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3728B41F5B110C0003A656 /* LaunchScreen.storyboard in Resources */,
+				1F3728B11F5B110C0003A656 /* Assets.xcassets in Resources */,
+				1F3728AC1F5B110C0003A656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D64FE5D1A04F1574DA7A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		516265DECAD20788459DAF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyCamera/Pods-HappyCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4A8C0F9591BB9874EBC0F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyCamera/Pods-HappyCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F37289A1F5B110C0003A656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3728A91F5B110C0003A656 /* ViewController.m in Sources */,
+				1F3728A61F5B110C0003A656 /* AppDelegate.m in Sources */,
+				1F3728A31F5B110C0003A656 /* main.m in Sources */,
+				1F3728AF1F5B110C0003A656 /* HappyCamera.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F3728AA1F5B110C0003A656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3728AB1F5B110C0003A656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F3728B21F5B110C0003A656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3728B31F5B110C0003A656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3728B61F5B110C0003A656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../framework/Source,
+					../framework/Source,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F3728B71F5B110C0003A656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../framework/Source,
+					../framework/Source,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3728B91F5B110C0003A656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5365E68CF8595E071304D4E /* Pods-HappyCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5D7TV84WEN;
+				HEADER_SEARCH_PATHS = (
+					"../../framework/Source/**",
+					"../../framework/Source/iOS/**",
+				);
+				INFOPLIST_FILE = HappyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wayde.HappyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1F3728BA1F5B110C0003A656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C9ED880810842474566C68 /* Pods-HappyCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5D7TV84WEN;
+				HEADER_SEARCH_PATHS = (
+					"../../framework/Source/**",
+					"../../framework/Source/iOS/**",
+				);
+				INFOPLIST_FILE = HappyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wayde.HappyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3728991F5B110C0003A656 /* Build configuration list for PBXProject "HappyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3728B61F5B110C0003A656 /* Debug */,
+				1F3728B71F5B110C0003A656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3728B81F5B110C0003A656 /* Build configuration list for PBXNativeTarget "HappyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3728B91F5B110C0003A656 /* Debug */,
+				1F3728BA1F5B110C0003A656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F3728AD1F5B110C0003A656 /* HappyCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F3728AE1F5B110C0003A656 /* HappyCamera.xcdatamodel */,
+			);
+			currentVersion = 1F3728AE1F5B110C0003A656 /* HappyCamera.xcdatamodel */;
+			path = HappyCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F3728961F5B110C0003A656 /* Project object */;
+}
