@@ -20,7 +20,12 @@
 
 @property(nonatomic, weak)IBOutlet GPUImageView *glView;
 @property (weak, nonatomic) IBOutlet UIButton *recordButtin;
-- (IBAction)recordVideo:(id)sender;
+
+@property(strong, nonatomic)GPUImageStillCamera * stillCamera;
+@property(strong, nonatomic)GPUImageFilter *filter;
+
+- (IBAction)recordVideo:(UIButton *)sender;
+- (IBAction)captureImage:(UIButton *)sender;
 
 @end
 
